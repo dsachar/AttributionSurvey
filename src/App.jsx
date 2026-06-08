@@ -14,7 +14,7 @@ const shuffle = (array) => {
   return newArr;
 };
 
-// Helper to pick 10 random tasks (one from each unique example)
+// Helper to pick 7 random tasks (one from each of 7 unique examples)
 const generateStudySet = () => {
   const examplesMap = new Map();
   allTasks.forEach(task => {
@@ -31,8 +31,8 @@ const generateStudySet = () => {
     selectedTasks.push(randomVariant);
   });
   
-  // Shuffle the 5 selected tasks
-  return shuffle(selectedTasks).slice(0, 5);
+  // Shuffle and select 7 tasks
+  return shuffle(selectedTasks).slice(0, 7);
 };
 
 // Generate UUID for user
@@ -77,11 +77,67 @@ function App() {
       {currentIdx === -1 && (
         <div className="intro-screen">
           <h1>Context Attribution Study</h1>
-          <p>In this study, you will be presented with a Question and an Answer.</p>
-          <br/>
-          <p>You will also see three sentences that serve as context. Your task is to rate how much each sentence <b>contributes</b> to deducing the Answer.</p>
-          <br/>
-          <p>There are {studyTasks.length} short tasks. Thank you for your help!</p>
+          <p className="intro-desc">
+            Help us evaluate context attribution models by providing human judgments.
+          </p>
+
+          <div className="instructions-card">
+            <h2>Instructions</h2>
+            <ul>
+              <li>
+                You will be presented with a <strong>Question</strong>, an <strong>Answer</strong>, and exactly <strong>three Sentences</strong> providing context.
+              </li>
+              <li>
+                Your task is to rate how much each individual <strong>Sentence</strong> contributes to deducing the <strong>Answer</strong>.
+              </li>
+              <li>
+                <strong>Read First:</strong> Please read all three <strong>Sentences</strong> carefully before providing individual ratings.
+              </li>
+              <li>
+                <strong>Information Synthesis:</strong> Note that the <strong>Answer</strong> might be derived from combining information across multiple <strong>Sentences</strong>.
+              </li>
+            </ul>
+          </div>
+
+          <div className="scale-guide-card">
+            <h2>Rating Scale</h2>
+            <div className="scale-guide-grid">
+              <div className="scale-guide-row" data-val="2">
+                <span className="scale-guide-badge">+2</span>
+                <div className="scale-guide-text">
+                  <strong>Direct Support</strong>: The Sentence provides crucial, necessary information to deduce the Answer.
+                </div>
+              </div>
+              <div className="scale-guide-row" data-val="1">
+                <span className="scale-guide-badge">+1</span>
+                <div className="scale-guide-text">
+                  <strong>Helpful Background</strong>: The Sentence provides useful context or supporting info, but is not strictly necessary.
+                </div>
+              </div>
+              <div className="scale-guide-row" data-val="0">
+                <span className="scale-guide-badge">0</span>
+                <div className="scale-guide-text">
+                  <strong>Neutral / Irrelevant</strong>: The Sentence has no relation to the Answer and does not help or hinder.
+                </div>
+              </div>
+              <div className="scale-guide-row" data-val="-1">
+                <span className="scale-guide-badge">-1</span>
+                <div className="scale-guide-text">
+                  <strong>Slightly Misleading</strong>: The Sentence is distracting, introduces noise, or slightly leads away from the Answer.
+                </div>
+              </div>
+              <div className="scale-guide-row" data-val="-2">
+                <span className="scale-guide-badge">-2</span>
+                <div className="scale-guide-text">
+                  <strong>Strongly Misleading</strong>: The Sentence directly contradicts the Answer or leads to a completely wrong conclusion.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <p className="study-info">
+            There are <strong>{studyTasks.length} short tasks</strong> in this study, which should take no more than 10 minutes. Thank you for your participation!
+          </p>
           <button className="btn" onClick={startStudy}>Start Study</button>
         </div>
       )}

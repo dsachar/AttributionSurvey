@@ -2,158 +2,32 @@
   {
     "example_id": "example_1",
     "variant_id": "Case_A",
-    "question": "Which planet has a large ring system?",
-    "response": "Saturn has a large ring system.",
-    "s1": "The prominent celestial feature belongs to a gas giant with visible ice bands.",
-    "s2": "The only gas giant with visible ice bands in our solar system is Saturn.",
-    "s3": "Mars is frequently explored by rovers searching for ancient signs of water."
-  },
-  {
-    "example_id": "example_1",
-    "variant_id": "Case_B",
-    "question": "Which planet has a large ring system?",
-    "response": "Saturn has a large ring system.",
-    "s1": "The prominent celestial feature belongs to a gas giant with visible ice bands.",
-    "s2": "The only gas giant with visible ice bands in our solar system is Saturn.",
-    "s3": "Saturn has a large underground ocean."
-  },
-  {
-    "example_id": "example_1",
-    "variant_id": "Case_C",
-    "question": "Which planet has a large ring system?",
-    "response": "Saturn has a large ring system.",
-    "s1": "The prominent celestial feature belongs to a gas giant with visible ice bands.",
-    "s2": "The only gas giant with visible ice bands in our solar system is Saturn.",
-    "s3": "A massive gaseous globe in the outer solar system possesses an extensive disk of orbiting debris."
-  },
-  {
-    "example_id": "example_2",
-    "variant_id": "Case_A",
     "question": "Which chemical caused the liquid to turn green?",
     "response": "Adding copper sulfate turned the liquid green.",
-    "s1": "S1 Missing",
-    "s2": "S2 Missing",
+    "s1": "A substance containing copper was added to the mixture.",
+    "s2": "The only copper compound present in the lab is copper sulfate.",
     "s3": "Cobalt chloride turns the mixture bright red."
   },
   {
-    "example_id": "example_2",
+    "example_id": "example_1",
     "variant_id": "Case_B",
     "question": "Which chemical caused the liquid to turn green?",
     "response": "Adding copper sulfate turned the liquid green.",
-    "s1": "S1 Missing",
-    "s2": "S2 Missing",
+    "s1": "A substance containing copper was added to the mixture.",
+    "s2": "The only copper compound present in the lab is copper sulfate.",
     "s3": "Copper sulfate is commonly used in agricultural fungicides to control mildew."
   },
   {
-    "example_id": "example_2",
+    "example_id": "example_1",
     "variant_id": "Case_C",
     "question": "Which chemical caused the liquid to turn green?",
     "response": "Adding copper sulfate turned the liquid green.",
-    "s1": "S1 Missing",
-    "s2": "S2 Missing",
+    "s1": "A substance containing copper was added to the mixture.",
+    "s2": "The only copper compound present in the lab is copper sulfate.",
     "s3": "Cupric compounds are known to generate emerald-colored liquid solutions."
   },
   {
-    "example_id": "example_3",
-    "variant_id": "Case_A",
-    "question": "Which historical figure wore the emerald brooch at the coronation?",
-    "response": "Napoleon wore the emerald brooch at the coronation.",
-    "s1": "S1 Missing",
-    "s2": "S2 Missing",
-    "s3": "The diplomat signed the peace treaty in the grand hall."
-  },
-  {
-    "example_id": "example_3",
-    "variant_id": "Case_B",
-    "question": "Which historical figure wore the emerald brooch at the coronation?",
-    "response": "Napoleon wore the emerald brooch at the coronation.",
-    "s1": "S1 Missing",
-    "s2": "S2 Missing",
-    "s3": "Napoleon led his army across the Alps during the Italian campaign."
-  },
-  {
-    "example_id": "example_3",
-    "variant_id": "Case_C",
-    "question": "Which historical figure wore the emerald brooch at the coronation?",
-    "response": "Napoleon wore the emerald brooch at the coronation.",
-    "s1": "S1 Missing",
-    "s2": "S2 Missing",
-    "s3": "The sovereign ruler of France donned the green gemstone ornament during the crowning ceremony."
-  },
-  {
-    "example_id": "example_4",
-    "variant_id": "Case_B",
-    "question": "In which room is the treasure hidden?",
-    "response": "The treasure is hidden in the study room.",
-    "s1": "The treasure is the first edition of the bible.",
-    "s2": "All books are located in the study room.",
-    "s3": "The study room is nicely decorated."
-  },
-  {
-    "example_id": "example_4",
-    "variant_id": "Case_C",
-    "question": "In which room is the treasure hidden?",
-    "response": "The treasure is hidden in the study room.",
-    "s1": "The treasure is the first edition of the bible.",
-    "s2": "All books are located in the study room.",
-    "s3": "The treasure is placed in a room."
-  },
-  {
-    "example_id": "example_5",
-    "variant_id": "Case_A",
-    "question": "Which ingredient made the soup spicy?",
-    "response": "Habanero made the soup spicy.",
-    "s1": "The intense heat came from an orange chili pepper.",
-    "s2": "The only orange chili pepper in the kitchen is habanero.",
-    "s3": "Black pepper is a staple seasoning found in almost every home."
-  },
-  {
-    "example_id": "example_5",
-    "variant_id": "Case_B",
-    "question": "Which ingredient made the soup spicy?",
-    "response": "Habanero made the soup spicy.",
-    "s1": "The intense heat came from an orange chili pepper.",
-    "s2": "The only orange chili pepper in the kitchen is habanero.",
-    "s3": "Habanero ruined the chef's knife."
-  },
-  {
-    "example_id": "example_5",
-    "variant_id": "Case_C",
-    "question": "Which ingredient made the soup spicy?",
-    "response": "Habanero made the soup spicy.",
-    "s1": "The intense heat came from an orange chili pepper.",
-    "s2": "The only orange chili pepper in the kitchen is habanero.",
-    "s3": "An ingredient made the soup spicy."
-  },
-  {
-    "example_id": "example_6",
-    "variant_id": "Case_A",
-    "question": "Which toxic substance was detected on the suspect's gloves?",
-    "response": "Barium chloride was detected on the suspect's gloves.",
-    "s1": "The toxic substance on the gloves was a water-soluble barium salt.",
-    "s2": "The only water-soluble barium salt found in the forensic lab inventory was barium chloride.",
-    "s3": "Potassium cyanide is a fast-acting poison often found in detective novels."
-  },
-  {
-    "example_id": "example_6",
-    "variant_id": "Case_B",
-    "question": "Which toxic substance was detected on the suspect's gloves?",
-    "response": "Barium chloride was detected on the suspect's gloves.",
-    "s1": "The toxic substance on the gloves was a water-soluble barium salt.",
-    "s2": "The only water-soluble barium salt found in the forensic lab inventory was barium chloride.",
-    "s3": "Barium chloride is widely used in the manufacturing of pigments and in the purification of brine solutions."
-  },
-  {
-    "example_id": "example_6",
-    "variant_id": "Case_C",
-    "question": "Which toxic substance was detected on the suspect's gloves?",
-    "response": "Barium chloride was detected on the suspect's gloves.",
-    "s1": "The toxic substance on the gloves was a water-soluble barium salt.",
-    "s2": "The only water-soluble barium salt found in the forensic lab inventory was barium chloride.",
-    "s3": "The forensic team reported that an unidentified toxic salt compound was detected on the suspect's gloves during the initial examination."
-  },
-  {
-    "example_id": "example_7",
+    "example_id": "example_2",
     "variant_id": "Case_A",
     "question": "Which part caused the engine to stall?",
     "response": "The carburetor caused the engine to stall.",
@@ -162,7 +36,7 @@
     "s3": "The alternator is responsible for charging the battery while driving."
   },
   {
-    "example_id": "example_7",
+    "example_id": "example_2",
     "variant_id": "Case_B",
     "question": "Which part caused the engine to stall?",
     "response": "The carburetor caused the engine to stall.",
@@ -171,7 +45,7 @@
     "s3": "The carburetor caused the exhaust to backfire."
   },
   {
-    "example_id": "example_7",
+    "example_id": "example_2",
     "variant_id": "Case_C",
     "question": "Which part caused the engine to stall?",
     "response": "The carburetor caused the engine to stall.",
@@ -180,61 +54,61 @@
     "s3": "The vehicle's motor abruptly stopped running because of a malfunction in the primary fuel-air mixing component."
   },
   {
-    "example_id": "example_8",
+    "example_id": "example_3",
     "variant_id": "Case_A",
-    "question": "Which supply was used to attach the documents?",
-    "response": "The stapler was used to attach the documents.",
-    "s1": "The papers were bound together using a mechanical fastening device.",
-    "s2": "The only mechanical fastening device on the desk was the stapler.",
-    "s3": "The paperclip is a temporary way to hold a few sheets of paper together."
+    "question": "Which virus caused the outbreak in the village?",
+    "response": "Strain H7-Alpha caused the outbreak in the village.",
+    "s1": "The epidemic was traced to a highly mutagenic RNA pathogen.",
+    "s2": "The only highly mutagenic RNA pathogen isolated from the patients was Strain H7-Alpha.",
+    "s3": "Influenza vaccines are updated annually to match circulating strains."
   },
   {
-    "example_id": "example_8",
+    "example_id": "example_3",
     "variant_id": "Case_B",
-    "question": "Which supply was used to attach the documents?",
-    "response": "The stapler was used to attach the documents.",
-    "s1": "The papers were bound together using a mechanical fastening device.",
-    "s2": "The only mechanical fastening device on the desk was the stapler.",
-    "s3": "The stapler was used to secure the flyer."
+    "question": "Which virus caused the outbreak in the village?",
+    "response": "Strain H7-Alpha caused the outbreak in the village.",
+    "s1": "The epidemic was traced to a highly mutagenic RNA pathogen.",
+    "s2": "The only highly mutagenic RNA pathogen isolated from the patients was Strain H7-Alpha.",
+    "s3": "Strain H7-Alpha caused severe respiratory symptoms in laboratory primates."
   },
   {
-    "example_id": "example_8",
+    "example_id": "example_3",
     "variant_id": "Case_C",
-    "question": "Which supply was used to attach the documents?",
-    "response": "The stapler was used to attach the documents.",
-    "s1": "The papers were bound together using a mechanical fastening device.",
-    "s2": "The only mechanical fastening device on the desk was the stapler.",
-    "s3": "The loose papers were securely fastened together using a common desktop binding tool."
+    "question": "Which virus caused the outbreak in the village?",
+    "response": "Strain H7-Alpha caused the outbreak in the village.",
+    "s1": "The epidemic was traced to a highly mutagenic RNA pathogen.",
+    "s2": "The only highly mutagenic RNA pathogen isolated from the patients was Strain H7-Alpha.",
+    "s3": "A rapidly evolving ribonucleic acid microorganism sparked the community-wide contagion."
   },
   {
-    "example_id": "example_9",
+    "example_id": "example_4",
     "variant_id": "Case_A",
-    "question": "Which gadget caused the blackout?",
+    "question": "Which kitchen appliance caused the blackout?",
     "response": "The microwave caused the blackout.",
     "s1": "The electrical failure was triggered by a high-wattage heating appliance.",
     "s2": "The only high-wattage heating appliance plugged in was the microwave.",
     "s3": "The television consumes very little electricity when in standby mode."
   },
   {
-    "example_id": "example_9",
+    "example_id": "example_4",
     "variant_id": "Case_B",
-    "question": "Which gadget caused the blackout?",
+    "question": "Which kitchen appliance caused the blackout?",
     "response": "The microwave caused the blackout.",
     "s1": "The electrical failure was triggered by a high-wattage heating appliance.",
     "s2": "The only high-wattage heating appliance plugged in was the microwave.",
     "s3": "The microwave destroyed the ceramic bowl."
   },
   {
-    "example_id": "example_9",
+    "example_id": "example_4",
     "variant_id": "Case_C",
-    "question": "Which gadget caused the blackout?",
+    "question": "Which kitchen appliance caused the blackout?",
     "response": "The microwave caused the blackout.",
     "s1": "The electrical failure was triggered by a high-wattage heating appliance.",
     "s2": "The only high-wattage heating appliance plugged in was the microwave.",
     "s3": "The massive power loss was initiated when someone turned on the high-wattage kitchen heating appliance."
   },
   {
-    "example_id": "example_10",
+    "example_id": "example_5",
     "variant_id": "Case_A",
     "question": "Which weapon pierced the knight's armor?",
     "response": "The crossbow pierced the knight's armor.",
@@ -243,7 +117,7 @@
     "s3": "The dull training sword is completely harmless in real combat."
   },
   {
-    "example_id": "example_10",
+    "example_id": "example_5",
     "variant_id": "Case_B",
     "question": "Which weapon pierced the knight's armor?",
     "response": "The crossbow pierced the knight's armor.",
@@ -252,12 +126,147 @@
     "s3": "The crossbow pierced the wooden target."
   },
   {
-    "example_id": "example_10",
+    "example_id": "example_5",
     "variant_id": "Case_C",
     "question": "Which weapon pierced the knight's armor?",
     "response": "The crossbow pierced the knight's armor.",
     "s1": "The metal plating was punctured by a ranged firing mechanism.",
     "s2": "The only ranged firing mechanism on the battlefield was the crossbow.",
-    "s3": "The heavy protective steel suit was completely penetrated by a mechanical bolt-launching device."
+    "s3": "A mechanical bolt-launching weapon pierced the knight's armor during the battle."
+  },
+  {
+    "example_id": "example_6",
+    "variant_id": "Case_A",
+    "question": "Which document established the peace treaty?",
+    "response": "The Treaty of Utrecht established the peace treaty.",
+    "s1": "The peace agreement was settled by the pact signed in the year 1713.",
+    "s2": "The only pact signed in the year 1713 to end the war was the Treaty of Utrecht.",
+    "s3": "The Magna Carta was signed in 1215 to limit the power of the king."
+  },
+  {
+    "example_id": "example_6",
+    "variant_id": "Case_B",
+    "question": "Which document established the peace treaty?",
+    "response": "The Treaty of Utrecht established the peace treaty.",
+    "s1": "The peace agreement was settled by the pact signed in the year 1713.",
+    "s2": "The only pact signed in the year 1713 to end the war was the Treaty of Utrecht.",
+    "s3": "The Treaty of Utrecht redrew the map of Europe."
+  },
+  {
+    "example_id": "example_6",
+    "variant_id": "Case_C",
+    "question": "Which document established the peace treaty?",
+    "response": "The Treaty of Utrecht established the peace treaty.",
+    "s1": "The peace agreement was settled by the pact signed in the year 1713.",
+    "s2": "The only pact signed in the year 1713 to end the war was the Treaty of Utrecht.",
+    "s3": "The international pact signed in 1713 resolved the war."
+  },
+  {
+    "example_id": "example_7",
+    "variant_id": "Case_A",
+    "question": "Which aircraft caused the runway collision?",
+    "response": "Flight Alpha-9 caused the runway collision.",
+    "s1": "The airport accident was triggered by a twin-engine commercial jetliner.",
+    "s2": "The only twin-engine commercial jetliner taxiing at that time was Flight Alpha-9.",
+    "s3": "Helicopters require a landing pad and can hover in place."
+  },
+  {
+    "example_id": "example_7",
+    "variant_id": "Case_B",
+    "question": "Which aircraft caused the runway collision?",
+    "response": "Flight Alpha-9 caused the runway collision.",
+    "s1": "The airport accident was triggered by a twin-engine commercial jetliner.",
+    "s2": "The only twin-engine commercial jetliner taxiing at that time was Flight Alpha-9.",
+    "s3": "Flight Alpha-9 caused a minor runway collision during a simulator test."
+  },
+  {
+    "example_id": "example_7",
+    "variant_id": "Case_C",
+    "question": "Which aircraft caused the runway collision?",
+    "response": "Flight Alpha-9 caused the runway collision.",
+    "s1": "The airport accident was triggered by a twin-engine commercial jetliner.",
+    "s2": "The only twin-engine commercial jetliner taxiing at that time was Flight Alpha-9.",
+    "s3": "A twin-engine commercial jetliner caused the runway collision."
+  },
+  {
+    "example_id": "example_8",
+    "variant_id": "Case_A",
+    "question": "Which instrument discovered the distant exoplanet?",
+    "response": "The Kepler satellite discovered the exoplanet.",
+    "s1": "The exoplanet was detected by a space-based transit-photometry telescope.",
+    "s2": "The only space-based transit-photometry telescope active during the mission was the Kepler satellite.",
+    "s3": "Radio telescopes on Earth detect emissions from distant pulsars and quasars."
+  },
+  {
+    "example_id": "example_8",
+    "variant_id": "Case_B",
+    "question": "Which instrument discovered the distant exoplanet?",
+    "response": "The Kepler satellite discovered the exoplanet.",
+    "s1": "The exoplanet was detected by a space-based transit-photometry telescope.",
+    "s2": "The only space-based transit-photometry telescope active during the mission was the Kepler satellite.",
+    "s3": "The Kepler satellite was deactivated after its fuel supply ran out."
+  },
+  {
+    "example_id": "example_8",
+    "variant_id": "Case_C",
+    "question": "Which instrument discovered the distant exoplanet?",
+    "response": "The Kepler satellite discovered the exoplanet.",
+    "s1": "The exoplanet was detected by a space-based transit-photometry telescope.",
+    "s2": "The only space-based transit-photometry telescope active during the mission was the Kepler satellite.",
+    "s3": "A space telescope measuring light dips detected the exoplanet."
+  },
+  {
+    "example_id": "example_9",
+    "variant_id": "Case_A",
+    "question": "Which composer wrote the symphony?",
+    "response": "Ludwig van Beethoven wrote the symphony.",
+    "s1": "The musical piece was composed by a deaf German master transitioning from Classical to Romantic.",
+    "s2": "The only deaf German composer transitioning between those eras was Ludwig van Beethoven.",
+    "s3": "Wolfgang Amadeus Mozart was a prolific child prodigy of the Classical era."
+  },
+  {
+    "example_id": "example_9",
+    "variant_id": "Case_B",
+    "question": "Which composer wrote the symphony?",
+    "response": "Ludwig van Beethoven wrote the symphony.",
+    "s1": "The musical piece was composed by a deaf German master transitioning from Classical to Romantic.",
+    "s2": "The only deaf German composer transitioning between those eras was Ludwig van Beethoven.",
+    "s3": "Ludwig van Beethoven composed nine complete symphonies in his lifetime."
+  },
+  {
+    "example_id": "example_9",
+    "variant_id": "Case_C",
+    "question": "Which composer wrote the symphony?",
+    "response": "Ludwig van Beethoven wrote the symphony.",
+    "s1": "The musical piece was composed by a deaf German master transitioning from Classical to Romantic.",
+    "s2": "The only deaf German composer transitioning between those eras was Ludwig van Beethoven.",
+    "s3": "A deaf German composer transitioning from Classical to Romantic wrote the symphony."
+  },
+  {
+    "example_id": "example_10",
+    "variant_id": "Case_A",
+    "question": "Which sociological concept explained the rapid spread of the rumor?",
+    "response": "The contagion theory explained the rumor's spread.",
+    "s1": "The collective behavior was explained by a framework stating that crowd emotions are highly infectious and spread rapidly.",
+    "s2": "The only framework stating that crowd emotions are highly infectious and spread rapidly is the contagion theory.",
+    "s3": "The bystander effect describes how individuals are less likely to offer help when other people are present."
+  },
+  {
+    "example_id": "example_10",
+    "variant_id": "Case_B",
+    "question": "Which sociological concept explained the rapid spread of the rumor?",
+    "response": "The contagion theory explained the rumor's spread.",
+    "s1": "The collective behavior was explained by a framework stating that crowd emotions are highly infectious and spread rapidly.",
+    "s2": "The only framework stating that crowd emotions are highly infectious and spread rapidly is the contagion theory.",
+    "s3": "The contagion theory was first proposed in the context of nineteenth-century crowd psychology."
+  },
+  {
+    "example_id": "example_10",
+    "variant_id": "Case_C",
+    "question": "Which sociological concept explained the rapid spread of the rumor?",
+    "response": "The contagion theory explained the rumor's spread.",
+    "s1": "The collective behavior was explained by a framework stating that crowd emotions are highly infectious and spread rapidly.",
+    "s2": "The only framework stating that crowd emotions are highly infectious and spread rapidly is the contagion theory.",
+    "s3": "A framework stating that crowd emotions are highly infectious and spread rapidly explained the collective behavior."
   }
 ]
