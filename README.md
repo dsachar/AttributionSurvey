@@ -36,8 +36,8 @@ The web application was developed as a modern, lightweight SPA (Single Page Appl
    - Displays the Question (Q) and the Target Response (A).
    - Displays three context sentences ($S_1$, $S_2$, $S_3$) in a **randomized layout order** to prevent positioning bias.
    - Requires the participant to rate each sentence on a 5-point Likert scale:
-     - `+2` : **Strongly Helpful** (Crucial/necessary information)
-     - `+1` : **Slightly Helpful** (Useful context, but not strictly necessary)
+     - `+2` : **Strongly Helpful** (Necessary piece of the puzzle to derive the Answer)
+     - `+1` : **Slightly Helpful** (Provides helpful context but isn't needed to derive the Answer)
      - ` 0` : **Neutral / Irrelevant** (Has no effect on the answer)
      - `-1` : **Slightly Misleading** (Distracting, but doesn't block the answer)
      - `-2` : **Strongly Misleading** (Contradicts or points to an incorrect answer)
