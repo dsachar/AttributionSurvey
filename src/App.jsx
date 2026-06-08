@@ -85,7 +85,7 @@ function App() {
             <h2>Instructions</h2>
             <ul>
               <li>
-                You will be presented with a <strong>Question</strong>, an <strong>Answer</strong>, and exactly <strong>three Sentences</strong> providing context.
+                You will be presented with a <strong>Question</strong>, an <strong>Answer</strong>, and exactly three <strong>Sentences</strong> providing context.
               </li>
               <li>
                 Your task is to rate how much each individual <strong>Sentence</strong> contributes to deducing the <strong>Answer</strong>.
