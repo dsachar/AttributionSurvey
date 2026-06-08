@@ -105,13 +105,13 @@ function App() {
               <div className="scale-guide-row" data-val="2">
                 <span className="scale-guide-badge">+2</span>
                 <div className="scale-guide-text">
-                  <strong>Direct Support</strong>: The Sentence provides crucial, necessary information to deduce the Answer.
+                  <strong>Strongly Helpful</strong>: The Sentence provides crucial, necessary information to deduce the Answer.
                 </div>
               </div>
               <div className="scale-guide-row" data-val="1">
                 <span className="scale-guide-badge">+1</span>
                 <div className="scale-guide-text">
-                  <strong>Helpful Background</strong>: The Sentence provides useful context or supporting info, but is not strictly necessary.
+                  <strong>Slightly Helpful</strong>: The Sentence provides useful context or supporting info, but is not strictly necessary.
                 </div>
               </div>
               <div className="scale-guide-row" data-val="0">

@@ -69,8 +69,8 @@ const TaskView = ({ task, userId, onNext }) => {
                 { val: -2, label: 'Strongly Misleading' },
                 { val: -1, label: 'Slightly Misleading' },
                 { val: 0, label: 'Neutral / Irrelevant' },
-                { val: 1, label: 'Helpful Background' },
-                { val: 2, label: 'Direct Support' }
+                { val: 1, label: 'Slightly Helpful' },
+                { val: 2, label: 'Strongly Helpful' }
               ].map(opt => (
                 <button 
                   key={opt.val}
